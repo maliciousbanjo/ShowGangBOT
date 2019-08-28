@@ -23,13 +23,6 @@ exports.run = (client, message, userTag) => {
                 .addField('User Since', new Date(targetUser.user.createdAt).toDateString())
                 .addField('Joined Server', new Date(targetUser.joinedAt).toDateString())
                 .addField('Messages', result[0].messages);
-            if (result[0].golden_kek !== 0) {
-                richEmbed.addField('Golden Keks', result[0].golden_kek)
-
-            }
-            if (result[0].cosmic_kek !== 0) {
-                richEmbed.addField('Cosmic Keks', result[0].cosmic_kek);
-            }
 
             message.channel.send(richEmbed);
         });

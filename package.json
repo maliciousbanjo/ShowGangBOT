@@ -1,14 +1,14 @@
 {
-  "name": "rngesusbot",
-  "version": "2.6.0",
-  "description": "A bot to interact with the Discord API for use on my server.",
-  "main": "rngesus.js",
+  "name": "showgangbot",
+  "version": "0.9.0",
+  "description": "A bot to interact with the Discord API",
+  "main": "showgang.js",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maliciousbanjo/RNGesusBOT"
+    "url": "https://github.com/maliciousbanjoShowGangBOT"
   },
   "keywords": [
     "Discord",
@@ -17,9 +17,9 @@
   "author": "MaliciousBn\banjo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maliciousBanjo/RNGE%08esusBOT/issues"
+    "url": "https://github.com/maliciousbanjoShowGangBOT/issues"
   },
-  "homepage": "https://github.com/maliciousBanjo/RNGE%08esusBOT#readme",
+  "homepage": "https://github.com/maliciousbanjoShowGangBOT#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
     "enmap": "^4.3.3",

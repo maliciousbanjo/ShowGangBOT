@@ -76,8 +76,8 @@ module.exports = (client, message) => {
      */
     function updateMessage(message) {
         const query = `
-        INSERT INTO USER (discord_id, username, messages, golden_kek, cosmic_kek)
-        VALUES ("${message.author.id}", "${message.author.username}", 1, 0, 0)
+        INSERT INTO USER (discord_id, username, messages)
+        VALUES ("${message.author.id}", "${message.author.username}", 1)
         ON DUPLICATE KEY UPDATE
             messages = messages + 1
         `;
