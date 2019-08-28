@@ -13,6 +13,10 @@ exports.run = (client, message) => {
         result.forEach(element => {
             emoteString += `${client.emojis.find(emoji => emoji.name === element.name)}\n`;
         });
+        if(emoteString === '') {
+            message.channel.send("There are no emotes recorded.");
+            return;
+        }
         const richEmbed = new Discord.RichEmbed()
         .setColor('BLUE')
         .addField('Top Emotes', emoteString);
