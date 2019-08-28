@@ -1,0 +1,34 @@
+{
+  "name": "rngesusbot",
+  "version": "2.6.0",
+  "description": "A bot to interact with the Discord API for use on my server.",
+  "main": "rngesus.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maliciousbanjo/RNGesusBOT"
+  },
+  "keywords": [
+    "Discord",
+    "Bot"
+  ],
+  "author": "MaliciousBn\banjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maliciousBanjo/RNGE%08esusBOT/issues"
+  },
+  "homepage": "https://github.com/maliciousBanjo/RNGE%08esusBOT#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.3.3",
+    "install-peers": "^1.0.2",
+    "mongodb": "^3.1.10",
+    "mysql": "^2.16.0",
+    "node-schedule": "^1.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "lodash": ">=4.17.11"
+  }
+}
