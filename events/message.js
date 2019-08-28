@@ -3,9 +3,7 @@ module.exports = (client, message) => {
     if (message.author.bot) return;
 
     // USER MESSAGE COUNT
-    if (message.channel.name != "bot_test") { // Test messages don't count
-        updateMessage(message);
-    }
+    updateMessage(message);
     
     // SCAN MESSAGE FOR CUSTOM EMOTES
     if (message.content.includes('<:')) {
@@ -45,12 +43,6 @@ module.exports = (client, message) => {
             cmd.run(client, message);
             return;
         }
-    }
-
-    // KEK CHECK
-    if (message.content.toLowerCase().includes('kek')) {
-        const kek = client.commands.get('kek');
-        kek.run(client, message);
     }
 
     /**
